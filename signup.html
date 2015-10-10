@@ -1,0 +1,56 @@
+<html>
+<head>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/signup.css">
+</head>
+
+<body>
+
+
+<div class="container">
+<div class="row">
+<form action="signup.php" method="POST" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="exampleInputFname">First Name</label>
+    <input type="text" class="form-control" id="exampleInputName"  name ="fname"placeholder="FirstName">
+
+  </div>
+ 
+ <div class="form-group">
+    <label for="exampleInputLname">Last Name</label>
+    <input type="text" class="form-control" id="exampleInputLName"  name ="lname"placeholder="LastName">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1"  name ="email"placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+     <input type="file" name="profileimage"  id="exampleInputFile">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" name ="signup"class="btn btn-primary">Sign up </button>
+</form>
+
+<form action="Login.html" method="GET" enctype="multipart/form-data">
+<button type="submit" name ="signup"class="btn btn-primary">Sign in</button>
+</form>
+
+</div>
+</div>
+
+
+ 
+</body>
+</html>

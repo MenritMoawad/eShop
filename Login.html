@@ -1,0 +1,39 @@
+
+<html>
+<head>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+
+
+<div class="container">
+<div class="row">
+<form action="welcome.php" method="POST" enctype="multipart/form-data">
+
+
+  <div class="form-inline">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1"  name ="email" placeholder="Email">
+  </div>
+  <div class="form-inline">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+  </div>
+
+    <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+
+  <button type="submit" name = "submit" class="btn btn-info">Submit</button>
+</form>
+</div>
+</div>
+</body>
+</html>
